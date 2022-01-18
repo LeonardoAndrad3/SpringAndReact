@@ -7,7 +7,7 @@ footer{
 }
 
 .dsmovie-footer-sobre{
-    background-color: rgba(255, 255, 255, 0.104);
+    background-color: rgba(255, 255, 255, 0.076);
     border-radius: 10px;
     text-align: center;
     margin: 8px 0 0 0;
@@ -17,6 +17,14 @@ footer{
     height: 90%;
 }
 
+.dsmovie-footer-sobre div{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
 .dsmovie-footer-sobre h1{
     font-size: 20px;
     font-weight: 600;
@@ -24,7 +32,7 @@ footer{
 }
 
 .dsmovie-footer-sobre p{
-    padding: 0 10px 0 10px;
     text-align: justify ;
-    font-size: 15px;
+    text-align: center;
+    font-size: 16px;
 }
