@@ -1,6 +1,6 @@
 footer{
     background-color: black;
-    height: 250px;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -10,17 +10,17 @@ footer{
     background-color: rgba(255, 255, 255, 0.076);
     border-radius: 10px;
     text-align: center;
-    margin: 8px 0 0 0;
+    margin: 8px 0 8px 0;
     position: relative;
     color: white;
     width: 80%;
-    height: 90%;
+    height: auto;
 }
 
-.dsmovie-footer-sobre div{
-    width: 150px;
+.dsmovie-sobre-ferramentas{
+    width: 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
     align-items: center;
 }
@@ -35,4 +35,62 @@ footer{
     text-align: justify ;
     text-align: center;
     font-size: 16px;
+}
+
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 8px 0;
+
+}
+
+.dsmovie-contact-link{
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.dsmovie-contact{
+    filter:invert(100%);
+}
+
+.dsmovie-contact-youtube:hover{
+    animation: teste 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.dsmovie-contact:hover{
+    transition: 0.5s;
+    position: relative;
+    animation: teste 0.2s;
+    animation-fill-mode: forwards;
+}
+.dsmovie-contact-name{
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+}
+
+@keyframes teste{
+    0%{
+         top: 0;
+        border-bottom: rgb(0, 0, 0) solid 0.5px;
+    }
+    75%{
+        border-bottom:  rgb(0, 0, 0) solid 1px;
+    }
+    100%{
+        border-bottom: rgb(0, 0, 0) solid 1.5px;
+        top: -2px;
+        transition: 0.5s;
+    }
+}
+
+@media(max-width: 600px){
+    .dsmovie-contact-container{
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
+
+
 }
