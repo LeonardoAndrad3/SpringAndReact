@@ -2,6 +2,8 @@
 
 :root {
   --color-primary: #4D41C0;
+  --color-segund: #000000;
+  --color-three: rgba(0, 0, 0, 0.919);
 }
 
 * {
@@ -10,7 +12,7 @@
 }
 
 html, body {
-    background-color: #E5E5E5;
+    background-color: #ffffff;
 }
 
 a, a:hover {

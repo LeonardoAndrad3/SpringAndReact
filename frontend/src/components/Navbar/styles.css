@@ -1,8 +1,18 @@
 header{
-    background-color: var(--color-primary);
+    background-color: var(--color-segund);
     height: 60px;
     display: flex;
     align-items: center;
+}
+
+.dsmovie-title-header{
+    align-items: center;
+    display: flex;
+}
+
+.dsmovie-title-icon{
+    filter: invert(100%);
+    margin: 0 2px 4px 0 ;
 }
 .dsmovie-nav-content{
     display: flex;
@@ -26,6 +36,32 @@ header{
     font-size: 12px;
 }
 
-.dsmovie-contact-github{
-    filter: invert(100);
+.dsmovie-contact{
+    filter:invert(100%)
+}
+
+.dsmovie-contact:hover{
+    transition: 0.5s;
+    position: relative;
+    animation: teste 0.2s;
+    animation-fill-mode: forwards;
+}
+.dsmovie-contact-name{
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+}
+
+@keyframes teste{
+    0%{
+         top: 0;
+        border-bottom: rgb(0, 0, 0) solid 0.5px;
+    }
+    75%{
+        border-bottom:  rgb(0, 0, 0) solid 1px;
+    }
+    100%{
+        border-bottom: rgb(0, 0, 0) solid 1.5px;
+        top: -2px;
+        transition: 0.5s;
+    }
 }

@@ -1,0 +1,30 @@
+footer{
+    background-color: black;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.dsmovie-footer-sobre{
+    background-color: rgba(255, 255, 255, 0.104);
+    border-radius: 10px;
+    text-align: center;
+    margin: 8px 0 0 0;
+    position: relative;
+    color: white;
+    width: 80%;
+    height: 90%;
+}
+
+.dsmovie-footer-sobre h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.dsmovie-footer-sobre p{
+    padding: 0 10px 0 10px;
+    text-align: justify ;
+    font-size: 15px;
+}

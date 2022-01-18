@@ -28,7 +28,7 @@
 }
 
 .dsmovie-card-bottom-container {
-    background-color: #fff;
+    background-color: rgba(199, 199, 199, 0.392);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@
 }
 
 .dsmovie-btn {
-    background-color: var(--color-primary);
+    background-color: var(--color-three);
     font-size: 14px;
     font-weight: 700;
     height: 40px;
@@ -54,4 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.919);
+    border-radius: 10px;
+    color: white;
 }
